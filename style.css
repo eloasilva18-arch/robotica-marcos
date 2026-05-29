@@ -1,0 +1,95 @@
+HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Inicial</title>
+    <style>
+        /* Estilos básicos para deixar a página com um visual moderno */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #16a085;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>O ponto de partida do meu projeto web</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <h2>Primeiros Passos</h2>
+        <p>Este é o arquivo <strong>index.html</strong>. Ele funciona como a página principal ou a "porta de entrada" do seu site.</p>
+        <p>Você pode alterar este texto, adicionar imagens, criar novos links e personalizar o design conforme a sua necessidade.</p>
+        
+        <hr>
+        
+        <h3>O que fazer agora?</h3>
+        <ul>
+            <li>Substitua os textos pelos do seu projeto.</li>
+            <li>Crie novas páginas (como <code>sobre.html</code>) e conecte-as pelo menu de navegação.</li>
+            <li>Explore o CSS dentro da tag <code>&lt;style&gt;</code> para mudar as cores e fontes.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>v
